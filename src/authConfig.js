@@ -6,7 +6,7 @@ const REACT_CLIENT_ID="852f995e-4fe0-4cca-a006-a9f2c9dcaabb"
 const msalConfig = {
   auth: {
     clientId: REACT_CLIENT_ID,
-    authority: `https://login.microsoftonline.com/${REACT_TENANT_ID}/B2C_1_login_appimotion`,
+    authority: `https://login.microsoftonline.com/${REACT_TENANT_ID}`,
     knownAuthorities: ['https://inteiasndbx.b2clogin.com/inteiasndbx.onmicrosoft.com'],
     redirectUri: '/',
     navigateToLoginRequestUrl: true,
